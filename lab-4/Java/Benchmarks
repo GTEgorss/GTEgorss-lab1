@@ -1,0 +1,283 @@
+# JMH version: 1.34
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8-86
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java
+# VM options: -Didea.launcher.port=49641 -Didea.launcher.bin.path=/Applications/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 7 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: src.main.java.Sort.BubbleSortBenchmark
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+Iteration   1: 5456.547 us/op
+Iteration   2: 726.764 us/op
+Iteration   3: 906.395 us/op
+Iteration   4: 860.239 us/op
+Iteration   5: 785.710 us/op
+Iteration   6: 433.031 us/op
+Iteration   7: 456.871 us/op
+
+
+Result "src.main.java.Sort.BubbleSortBenchmark":
+  N = 7
+  mean =   1375.080 ±(99.9%) 4074.936 us/op
+
+  Histogram, us/op:
+    [   0.000,  500.000) = 2 
+    [ 500.000, 1000.000) = 4 
+    [1000.000, 1500.000) = 0 
+    [1500.000, 2000.000) = 0 
+    [2000.000, 2500.000) = 0 
+    [2500.000, 3000.000) = 0 
+    [3000.000, 3500.000) = 0 
+    [3500.000, 4000.000) = 0 
+    [4000.000, 4500.000) = 0 
+    [4500.000, 5000.000) = 0 
+    [5000.000, 5500.000) = 1 
+
+  Percentiles, us/op:
+      p(0.0000) =    433.031 us/op
+     p(50.0000) =    785.710 us/op
+     p(90.0000) =   5456.547 us/op
+     p(95.0000) =   5456.547 us/op
+     p(99.0000) =   5456.547 us/op
+     p(99.9000) =   5456.547 us/op
+     p(99.9900) =   5456.547 us/op
+     p(99.9990) =   5456.547 us/op
+     p(99.9999) =   5456.547 us/op
+    p(100.0000) =   5456.547 us/op
+
+
+# JMH version: 1.34
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8-86
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java
+# VM options: -Didea.launcher.port=49641 -Didea.launcher.bin.path=/Applications/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 7 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: src.main.java.Sort.DefaultSortBenchmark
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+Iteration   1: 935.327 us/op
+Iteration   2: 343.190 us/op
+Iteration   3: 275.642 us/op
+Iteration   4: 242.236 us/op
+Iteration   5: 234.688 us/op
+Iteration   6: 234.083 us/op
+Iteration   7: 261.839 us/op
+
+
+Result "src.main.java.Sort.DefaultSortBenchmark":
+  N = 7
+  mean =    361.001 ±(99.9%) 576.744 us/op
+
+  Histogram, us/op:
+    [ 200.000,  250.000) = 3 
+    [ 250.000,  300.000) = 2 
+    [ 300.000,  350.000) = 1 
+    [ 350.000,  400.000) = 0 
+    [ 400.000,  450.000) = 0 
+    [ 450.000,  500.000) = 0 
+    [ 500.000,  550.000) = 0 
+    [ 550.000,  600.000) = 0 
+    [ 600.000,  650.000) = 0 
+    [ 650.000,  700.000) = 0 
+    [ 700.000,  750.000) = 0 
+    [ 750.000,  800.000) = 0 
+    [ 800.000,  850.000) = 0 
+    [ 850.000,  900.000) = 0 
+    [ 900.000,  950.000) = 1 
+
+  Percentiles, us/op:
+      p(0.0000) =    234.083 us/op
+     p(50.0000) =    261.839 us/op
+     p(90.0000) =    935.327 us/op
+     p(95.0000) =    935.327 us/op
+     p(99.0000) =    935.327 us/op
+     p(99.9000) =    935.327 us/op
+     p(99.9900) =    935.327 us/op
+     p(99.9990) =    935.327 us/op
+     p(99.9999) =    935.327 us/op
+    p(100.0000) =    935.327 us/op
+
+
+# JMH version: 1.34
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8-86
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java
+# VM options: -Didea.launcher.port=49641 -Didea.launcher.bin.path=/Applications/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 7 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: src.main.java.Sort.MergeSortBenchmark
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+Iteration   1: 2120.176 us/op
+Iteration   2: 1243.427 us/op
+Iteration   3: 769.381 us/op
+Iteration   4: 386.623 us/op
+Iteration   5: 331.640 us/op
+Iteration   6: 282.641 us/op
+Iteration   7: 300.978 us/op
+
+
+Result "src.main.java.Sort.MergeSortBenchmark":
+  N = 7
+  mean =    776.409 ±(99.9%) 1550.454 us/op
+
+  Histogram, us/op:
+    [   0.000,  250.000) = 0 
+    [ 250.000,  500.000) = 4 
+    [ 500.000,  750.000) = 0 
+    [ 750.000, 1000.000) = 1 
+    [1000.000, 1250.000) = 1 
+    [1250.000, 1500.000) = 0 
+    [1500.000, 1750.000) = 0 
+    [1750.000, 2000.000) = 0 
+    [2000.000, 2250.000) = 1 
+    [2250.000, 2500.000) = 0 
+    [2500.000, 2750.000) = 0 
+
+  Percentiles, us/op:
+      p(0.0000) =    282.641 us/op
+     p(50.0000) =    386.623 us/op
+     p(90.0000) =   2120.176 us/op
+     p(95.0000) =   2120.176 us/op
+     p(99.0000) =   2120.176 us/op
+     p(99.9000) =   2120.176 us/op
+     p(99.9900) =   2120.176 us/op
+     p(99.9990) =   2120.176 us/op
+     p(99.9999) =   2120.176 us/op
+    p(100.0000) =   2120.176 us/op
+
+
+# JMH version: 1.34
+# VM version: JDK 17.0.2, OpenJDK 64-Bit Server VM, 17.0.2+8-86
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/bin/java
+# VM options: -Didea.launcher.port=49641 -Didea.launcher.bin.path=/Applications/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 7 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: src.main.java.Sort.QuickSortBenchmark
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+Iteration   1: 1948.152 us/op
+Iteration   2: 304.386 us/op
+Iteration   3: 154.996 us/op
+Iteration   4: 147.375 us/op
+Iteration   5: 225.820 us/op
+Iteration   6: 174.518 us/op
+Iteration   7: 299.514 us/op
+
+
+Result "src.main.java.Sort.QuickSortBenchmark":
+  N = 7
+  mean =    464.966 ±(99.9%) 1480.167 us/op
+
+  Histogram, us/op:
+    [   0.000,  125.000) = 0 
+    [ 125.000,  250.000) = 4 
+    [ 250.000,  375.000) = 2 
+    [ 375.000,  500.000) = 0 
+    [ 500.000,  625.000) = 0 
+    [ 625.000,  750.000) = 0 
+    [ 750.000,  875.000) = 0 
+    [ 875.000, 1000.000) = 0 
+    [1000.000, 1125.000) = 0 
+    [1125.000, 1250.000) = 0 
+    [1250.000, 1375.000) = 0 
+    [1375.000, 1500.000) = 0 
+    [1500.000, 1625.000) = 0 
+    [1625.000, 1750.000) = 0 
+    [1750.000, 1875.000) = 0 
+
+  Percentiles, us/op:
+      p(0.0000) =    147.375 us/op
+     p(50.0000) =    225.820 us/op
+     p(90.0000) =   1948.152 us/op
+     p(95.0000) =   1948.152 us/op
+     p(99.0000) =   1948.152 us/op
+     p(99.9000) =   1948.152 us/op
+     p(99.9900) =   1948.152 us/op
+     p(99.9990) =   1948.152 us/op
+     p(99.9999) =   1948.152 us/op
+    p(100.0000) =   1948.152 us/op
+
+
+# Run complete. Total time: 00:14:10
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                                                 Mode      Cnt      Score      Error   Units
+Sort.BubbleSortBenchmark                                 thrpt        7      0.003 ±    0.001  ops/us
+Sort.DefaultSortBenchmark                                thrpt        7      0.019 ±    0.001  ops/us
+Sort.MergeSortBenchmark                                  thrpt        7      0.011 ±    0.010  ops/us
+Sort.QuickSortBenchmark                                  thrpt        7      0.016 ±    0.001  ops/us
+Sort.BubbleSortBenchmark                                  avgt        7    333.610 ±    7.184   us/op
+Sort.DefaultSortBenchmark                                 avgt        7     51.741 ±    0.824   us/op
+Sort.MergeSortBenchmark                                   avgt        7     74.394 ±    1.642   us/op
+Sort.QuickSortBenchmark                                   avgt        7     59.930 ±    0.565   us/op
+Sort.BubbleSortBenchmark                                sample   208166    335.959 ±    0.451   us/op
+Sort.BubbleSortBenchmark:BubbleSortBenchmark·p0.00      sample             283.648              us/op
+Sort.BubbleSortBenchmark:BubbleSortBenchmark·p0.50      sample             318.464              us/op
+Sort.BubbleSortBenchmark:BubbleSortBenchmark·p0.90      sample             387.072              us/op
+Sort.BubbleSortBenchmark:BubbleSortBenchmark·p0.95      sample             414.720              us/op
+Sort.BubbleSortBenchmark:BubbleSortBenchmark·p0.99      sample             489.984              us/op
+Sort.BubbleSortBenchmark:BubbleSortBenchmark·p0.999     sample             832.341              us/op
+Sort.BubbleSortBenchmark:BubbleSortBenchmark·p0.9999    sample            2278.127              us/op
+Sort.BubbleSortBenchmark:BubbleSortBenchmark·p1.00      sample           12877.824              us/op
+Sort.DefaultSortBenchmark                               sample  1312725     53.236 ±    0.071   us/op
+Sort.DefaultSortBenchmark:DefaultSortBenchmark·p0.00    sample              44.992              us/op
+Sort.DefaultSortBenchmark:DefaultSortBenchmark·p0.50    sample              49.600              us/op
+Sort.DefaultSortBenchmark:DefaultSortBenchmark·p0.90    sample              62.080              us/op
+Sort.DefaultSortBenchmark:DefaultSortBenchmark·p0.95    sample              71.424              us/op
+Sort.DefaultSortBenchmark:DefaultSortBenchmark·p0.99    sample             109.824              us/op
+Sort.DefaultSortBenchmark:DefaultSortBenchmark·p0.999   sample             223.744              us/op
+Sort.DefaultSortBenchmark:DefaultSortBenchmark·p0.9999  sample             875.520              us/op
+Sort.DefaultSortBenchmark:DefaultSortBenchmark·p1.00    sample            7274.496              us/op
+Sort.MergeSortBenchmark                                 sample   955168     73.166 ±    0.113   us/op
+Sort.MergeSortBenchmark:MergeSortBenchmark·p0.00        sample              63.808              us/op
+Sort.MergeSortBenchmark:MergeSortBenchmark·p0.50        sample              66.560              us/op
+Sort.MergeSortBenchmark:MergeSortBenchmark·p0.90        sample              85.376              us/op
+Sort.MergeSortBenchmark:MergeSortBenchmark·p0.95        sample             101.888              us/op
+Sort.MergeSortBenchmark:MergeSortBenchmark·p0.99        sample             152.576              us/op
+Sort.MergeSortBenchmark:MergeSortBenchmark·p0.999       sample             337.660              us/op
+Sort.MergeSortBenchmark:MergeSortBenchmark·p0.9999      sample             988.056              us/op
+Sort.MergeSortBenchmark:MergeSortBenchmark·p1.00        sample           13336.576              us/op
+Sort.QuickSortBenchmark                                 sample  1178375     59.311 ±    0.065   us/op
+Sort.QuickSortBenchmark:QuickSortBenchmark·p0.00        sample              50.944              us/op
+Sort.QuickSortBenchmark:QuickSortBenchmark·p0.50        sample              54.720              us/op
+Sort.QuickSortBenchmark:QuickSortBenchmark·p0.90        sample              68.736              us/op
+Sort.QuickSortBenchmark:QuickSortBenchmark·p0.95        sample              78.336              us/op
+Sort.QuickSortBenchmark:QuickSortBenchmark·p0.99        sample             121.984              us/op
+Sort.QuickSortBenchmark:QuickSortBenchmark·p0.999       sample             226.879              us/op
+Sort.QuickSortBenchmark:QuickSortBenchmark·p0.9999      sample             859.302              us/op
+Sort.QuickSortBenchmark:QuickSortBenchmark·p1.00        sample            3940.352              us/op
+Sort.BubbleSortBenchmark                                    ss        7   1375.080 ± 4074.936   us/op
+Sort.DefaultSortBenchmark                                   ss        7    361.001 ±  576.744   us/op
+Sort.MergeSortBenchmark                                     ss        7    776.409 ± 1550.454   us/op
+Sort.QuickSortBenchmark                                     ss        7    464.966 ± 1480.167   us/op
