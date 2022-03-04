@@ -1,7 +1,7 @@
 # GTEgorss
 Programming technologies (.NET: C#, F#; JVM: Java, Scala)
 
-##LAB-1: Interop and learning about new programming and developing tools
+## LAB-1: Interop and learning about new programming and developing tools
 
 
 ### <ins>Task 1</ins>
