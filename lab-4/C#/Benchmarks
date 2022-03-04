@@ -1,0 +1,135 @@
+// * Detailed results *
+Sort.BubbleSortBenchmark: Job-BTRFFI(LaunchCount=5, RunStrategy=Throughput)
+Runtime = .NET 6.0.1 (6.0.121.56705), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 441.028 us, StdErr = 2.882 us (0.65%), N = 278, StdDev = 48.061 us
+Min = 370.714 us, Q1 = 410.917 us, Median = 429.501 us, Q3 = 460.501 us, Max = 594.599 us
+IQR = 49.584 us, LowerFence = 336.541 us, UpperFence = 534.877 us
+ConfidenceInterval = [431.441 us; 450.615 us] (CI 99.9%), Margin = 9.587 us (2.17% of Mean)
+Skewness = 1.13, Kurtosis = 4.06, MValue = 2.61
+-------------------- Histogram --------------------
+[361.049 us ; 374.580 us) | @@
+[374.580 us ; 393.910 us) | @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[393.910 us ; 412.234 us) | @@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[412.234 us ; 431.565 us) | @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[431.565 us ; 451.548 us) | @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[451.548 us ; 473.142 us) | @@@@@@@@@@@@@@@@@@@@@@@@@@
+[473.142 us ; 494.437 us) | @@@@@@@@@@@@@@@@@@@@@@
+[494.437 us ; 513.909 us) | @@@@@@@@@@@@
+[513.909 us ; 535.530 us) | @@@@@@@@@
+[535.530 us ; 548.645 us) | @@
+[548.645 us ; 567.975 us) | @@@@@@@
+[567.975 us ; 595.092 us) | @@@@@@@
+---------------------------------------------------
+
+Sort.MergeSortBenchmark: Job-BTRFFI(LaunchCount=5, RunStrategy=Throughput)
+Runtime = .NET 6.0.1 (6.0.121.56705), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 128.103 us, StdErr = 0.407 us (0.32%), N = 112, StdDev = 4.307 us
+Min = 121.674 us, Q1 = 124.767 us, Median = 127.792 us, Q3 = 129.679 us, Max = 142.514 us
+IQR = 4.912 us, LowerFence = 117.399 us, UpperFence = 137.047 us
+ConfidenceInterval = [126.727 us; 129.479 us] (CI 99.9%), Margin = 1.376 us (1.07% of Mean)
+Skewness = 1.25, Kurtosis = 4.69, MValue = 2
+-------------------- Histogram --------------------
+[120.501 us ; 124.937 us) | @@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[124.937 us ; 129.155 us) | @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[129.155 us ; 133.946 us) | @@@@@@@@@@@@@@@@@@@@@@
+[133.946 us ; 137.749 us) | @@@@
+[137.749 us ; 143.686 us) | @@@@@@
+---------------------------------------------------
+
+Sort.QuickSortBenchmark: Job-BTRFFI(LaunchCount=5, RunStrategy=Throughput)
+Runtime = .NET 6.0.1 (6.0.121.56705), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 106.661 us, StdErr = 0.574 us (0.54%), N = 449, StdDev = 12.167 us
+Min = 92.102 us, Q1 = 98.531 us, Median = 103.105 us, Q3 = 111.318 us, Max = 172.590 us
+IQR = 12.788 us, LowerFence = 79.349 us, UpperFence = 130.500 us
+ConfidenceInterval = [104.759 us; 108.563 us] (CI 99.9%), Margin = 1.902 us (1.78% of Mean)
+Skewness = 2.07, Kurtosis = 9, MValue = 2.27
+-------------------- Histogram --------------------
+[ 90.017 us ;  92.946 us) | @@@
+[ 92.946 us ;  97.288 us) | @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[ 97.288 us ; 101.459 us) | @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[101.459 us ; 105.760 us) | @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[105.760 us ; 110.110 us) | @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[110.110 us ; 114.252 us) | @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[114.252 us ; 116.666 us) | @@@@@@@@@@@@@
+[116.666 us ; 122.413 us) | @@@@@@@@@@@@@@@@@@@@@@@
+[122.413 us ; 126.584 us) | @@@@@@@@@@@@@@@@
+[126.584 us ; 129.207 us) | @@@@@@
+[129.207 us ; 133.378 us) | @@@@@@@@@@@@@
+[133.378 us ; 140.161 us) | @@@
+[140.161 us ; 145.748 us) | 
+[145.748 us ; 151.043 us) | @@
+[151.043 us ; 155.214 us) | @
+[155.214 us ; 160.909 us) | @@@@
+[160.909 us ; 165.080 us) | 
+[165.080 us ; 169.426 us) | 
+[169.426 us ; 173.597 us) | @@
+---------------------------------------------------
+
+Sort.ArraySortBenchmark: Job-BTRFFI(LaunchCount=5, RunStrategy=Throughput)
+Runtime = .NET 6.0.1 (6.0.121.56705), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 92.494 us, StdErr = 0.633 us (0.68%), N = 325, StdDev = 11.406 us
+Min = 81.734 us, Q1 = 85.166 us, Median = 88.660 us, Q3 = 95.222 us, Max = 149.355 us
+IQR = 10.056 us, LowerFence = 70.082 us, UpperFence = 110.306 us
+ConfidenceInterval = [90.393 us; 94.595 us] (CI 99.9%), Margin = 2.101 us (2.27% of Mean)
+Skewness = 2.4, Kurtosis = 10.23, MValue = 2.02
+-------------------- Histogram --------------------
+[ 79.556 us ;  83.013 us) | @@@@@@@@@@@
+[ 83.013 us ;  87.368 us) | @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[ 87.368 us ;  91.804 us) | @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[ 91.804 us ;  96.206 us) | @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[ 96.206 us ; 100.945 us) | @@@@@@@@@@@@@@@@@@@@@
+[100.945 us ; 105.657 us) | @@@@@@@@@@@@@@@@@@
+[105.657 us ; 110.933 us) | @@@@@@@@@@@@@@
+[110.933 us ; 113.433 us) | @@
+[113.433 us ; 117.788 us) | @@@@@@@@@@
+[117.788 us ; 120.952 us) | @
+[120.952 us ; 125.862 us) | 
+[125.862 us ; 130.217 us) | @@
+[130.217 us ; 134.572 us) | 
+[134.572 us ; 138.927 us) | 
+[138.927 us ; 144.927 us) | @@@
+[144.927 us ; 150.103 us) | @@@
+---------------------------------------------------
+
+// * Summary *
+
+BenchmarkDotNet=v0.13.1, OS=macOS Monterey 12.1 (21C52) [Darwin 21.2.0]
+Intel Core i5-6267U CPU 2.90GHz (Skylake), 1 CPU, 4 logical and 2 physical cores
+.NET SDK=6.0.101
+  [Host]     : .NET 6.0.1 (6.0.121.56705), X64 RyuJIT
+  Job-BTRFFI : .NET 6.0.1 (6.0.121.56705), X64 RyuJIT
+
+LaunchCount=5  RunStrategy=Throughput  
+
+|              Method |      Mean |    Error |    StdDev |    Median |   Gen 0 | Allocated |
+|-------------------- |----------:|---------:|----------:|----------:|--------:|----------:|
+| BubbleSortBenchmark | 441.03 us | 9.587 us | 48.061 us | 429.50 us |  3.9063 |      8 KB |
+|  MergeSortBenchmark | 128.10 us | 1.376 us |  4.307 us | 127.79 us | 61.5234 |    126 KB |
+|  QuickSortBenchmark | 106.66 us | 1.902 us | 12.167 us | 103.10 us |  3.9063 |      8 KB |
+|  ArraySortBenchmark |  92.49 us | 2.101 us | 11.406 us |  88.66 us |  4.0283 |      8 KB |
+
+// * Hints *
+Outliers
+  Sort.BubbleSortBenchmark: LaunchCount=5, RunStrategy=Throughput -> 24 outliers were removed (576.26 us..1.40 ms)
+  Sort.MergeSortBenchmark: LaunchCount=5, RunStrategy=Throughput  -> Something went wrong with outliers: Size(WorkloadActual) = 119, Size(WorkloadActual/Outliers) = 8, Size(Result) = 112), OutlierMode = RemoveUpper
+  Sort.QuickSortBenchmark: LaunchCount=5, RunStrategy=Throughput  -> Something went wrong with outliers: Size(WorkloadActual) = 500, Size(WorkloadActual/Outliers) = 50, Size(Result) = 449), OutlierMode = RemoveUpper
+  Sort.ArraySortBenchmark: LaunchCount=5, RunStrategy=Throughput  -> Something went wrong with outliers: Size(WorkloadActual) = 355, Size(WorkloadActual/Outliers) = 24, Size(Result) = 325), OutlierMode = RemoveUpper
+
+// * Legends *
+  Mean      : Arithmetic mean of all measurements
+  Error     : Half of 99.9% confidence interval
+  StdDev    : Standard deviation of all measurements
+  Median    : Value separating the higher half of all measurements (50th percentile)
+  Gen 0     : GC Generation 0 collects per 1000 operations
+  Allocated : Allocated memory per single operation (managed only, inclusive, 1KB = 1024B)
+  1 us      : 1 Microsecond (0.000001 sec)
+
+// * Diagnostic Output - MemoryDiagnoser *
+
+
+// ***** BenchmarkRunner: End *****
+// ** Remained 0 benchmark(s) to run **
+Run time: 00:19:45 (1185.11 sec), executed benchmarks: 4
+
+Global total time: 00:19:52 (1192.18 sec), executed benchmarks: 4
+// * Artifacts cleanup *
