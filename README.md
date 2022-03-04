@@ -1,9 +1,9 @@
 # GTEgorss
 Programming technologies (.NET: C#, F#; JVM: Java, Scala)
 
-LAB-1: Interop and learning about new programming and developing tools
+##LAB-1: Interop and learning about new programming and developing tools
 
-## Task 1
+### Task 1
 Процесс:
 1. Написал на С++ две функции: sum(int a, int b) и int mult()
 2. Добавил в заголовочный файл extern и __declspec(dllexport), чтобы функции в библиотеке после сборки соотвествовале по сигнатуре функциям из source-кода
@@ -19,7 +19,7 @@ Mach-O - это формат файла, который используется
 5. В Используя атрибут DLLImport, "законнектил" декларацию функций в C# с их определением в .dylib
 6. В Java с помощью внешне установленной библиотеки JNA создал .class на основе interface, содержащего функции, совпадающие по сигнатуре с функциями в .dylib
 
-### Сложности и ограничения:
+## Сложности и ограничения:
 
 -Нужно подключать и настраивать дополнительные инструменты, которые обычно не используются
 -Нет простого способа изменять .dylib/.dll. Нужно изменять source-код на C++, build-ить и только после этого получить новую .dylib/.dll
